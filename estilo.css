@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;900&display=swap');
+
+*{
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    margin: 44px 0 144px 76px;
+}
+
+.links{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #989D9C;
+    text-transform: uppercase;
+    cursor: pointer;
+    text-decoration: none;
+    margin-right: 23px;
+}
+
+.botao-login{
+    padding: 12px;
+    border-radius: 50px;
+    background-color: #665AE1;
+    color: #fff;
+}
+
+.logo {
+    width: 568px;
+    height: 500px;
+    margin-left: 125px;
+    display: inline-block;
+}
+
+section{
+    display: inline-block;
+    margin-left: 86px;
+}
+
+h1{
+    font-family: Montserrat;
+    font-size: 100px;
+    font-weight: 900;
+    line-height: 122px;
+    color: #515151;
+}
+
+h2{
+    font-weight: 500;
+    font-size: 58px;
+    line-height: 70.7px;
+    color: #515151;
+}
+
+p{
+    width: 515px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 32px;
+    margin-bottom: 35px;
+}
+
+button{
+    width: 239px;
+    height: 64px;
+    border-radius: 38px;
+    background-color: #ADFF00;
+    color: #000000;
+    border: none;
+    cursor: pointer;
+    filter: drop-shadow(0px 4px 4px rgba(0,0,0,0.25));
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 34px;
+}
