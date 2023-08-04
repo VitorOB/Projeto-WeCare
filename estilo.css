@@ -80,3 +80,54 @@ button{
     font-weight: 700;
     line-height: 34px;
 }
+
+@media screen and (max-width: 870px) {
+    header{
+        display: none;
+    }
+
+    body{
+        position: relative;
+        top: 100px;
+    }
+    img{
+        width: 354px;
+        height: 310px;
+        position: static;
+    }
+
+    h1{
+        width: 263px;
+        height: 52px;
+        color: #515151;
+        font-size: 50px;
+        font-weight: 900;
+        line-height: 61px;
+        margin: 0 120px;
+        position: static;
+    }
+
+    h2{
+        color: #515151;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 37px;
+        position: static;
+        margin: 15px 135px
+    }
+
+    p{
+        display: none;
+    }
+
+    button{
+        width: 239px;
+        height: 64px;
+        border-radius: 20.5px;
+        background: #ADFF00;
+        margin-top: 17px;
+        position: static;
+        margin: 0 135px;
+    }
+}
